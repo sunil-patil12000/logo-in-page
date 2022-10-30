@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: #001923 !important;
+}
+
+.navbar {
+    background-color: #b3d7f18f;
+
+    border-radius: 15px;
+    padding: 10px;
+    width: 100%;
+
+
+}
+
+.nav-t {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.l-tital {
+    font-size: larger;
+    margin-left: 10px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.bgt {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+
+}
+
+.overlye {
+    position: absolute;
+    width: 100%;
+    max-width: 600px;
+    padding: 50px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .1);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+    margin-bottom: 8rem;
+}
+.overlye form{
+    color: white;
+}
+.overlye form label{
+    font-size: 1.2rem;
+}
